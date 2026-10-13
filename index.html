@@ -534,7 +534,7 @@
 
     function chargerModele() {
       const kicker = document.getElementById('resultat-kicker');
-      kicker.textContent = `Résistance estimée — ${MODELE_INFO.model_name}`;
+      kicker.textContent = `Résistance estimée — XGBoost`;
       const note = document.getElementById('valeur-marge');
       note.textContent = `Marge d’erreur habituelle : ± ${Number(MODELE_INFO.rmse).toFixed(2)} MPa`;
     }
